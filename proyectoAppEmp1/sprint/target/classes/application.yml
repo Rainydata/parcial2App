@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bdproyectofinal?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=True
+    username: root
+    password: 52366230
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+

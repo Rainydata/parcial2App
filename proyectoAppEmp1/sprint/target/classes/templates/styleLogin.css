@@ -1,0 +1,39 @@
+/* Estilos para el cuerpo del formulario */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilos para los campos de entrada */
+.input-field input[type="text"],
+.input-field input[type="password"] {
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espacio interior */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para los botones */
+.btn {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espacio interior */
+    cursor: pointer; /* Cursor al pasar */
+}
+
+/* Estilos para el enlace */
+.btn-link {
+    color: #007bff; /* Color de texto azul */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilos para el enlace al pasar el cursor */
+.btn-link:hover {
+    text-decoration: underline; /* Subrayado al pasar */
+}
